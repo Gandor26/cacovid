@@ -1,0 +1,4 @@
+Compile covid_lin.cpp using the following command:
+c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` covid_lin.cpp -o covid_lin`python3-config --extension-suffix`
+
+Then you can run Exp_COVID notebook. It is well commented.
